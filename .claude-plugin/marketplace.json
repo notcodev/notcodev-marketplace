@@ -1,0 +1,22 @@
+{
+  "name": "claude-marketplace",
+  "owner": {
+    "name": "notcodev",
+    "email": "erikcodev@gmail.com"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "source": {
+        "source": "github",
+        "repo": "notcodev/example-plugin"
+      },
+      "description": "Replace this with a real plugin entry, or remove",
+      "version": "0.1.0"
+    }
+  ]
+}
