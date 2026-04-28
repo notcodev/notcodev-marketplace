@@ -1,5 +1,5 @@
 {
-  "name": "claude-marketplace",
+  "name": "notcodev-marketplace",
   "owner": {
     "name": "notcodev",
     "email": "erikcodev@gmail.com"
@@ -10,13 +10,15 @@
   },
   "plugins": [
     {
-      "name": "example-plugin",
+      "name": "claude-weeek",
       "source": {
         "source": "github",
-        "repo": "notcodev/example-plugin"
+        "repo": "notcodev/claude-weeek",
+        "path": "./plugin"
       },
       "description": "Replace this with a real plugin entry, or remove",
-      "version": "0.1.0"
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
