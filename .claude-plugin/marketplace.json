@@ -6,17 +6,17 @@
   },
   "metadata": {
     "description": "Personal Claude Code plugin marketplace",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "claude-weeek",
       "source": {
-        "source": "github",
-        "repo": "notcodev/claude-weeek",
-        "path": "./plugin"
+        "source": "git-subdir",
+        "url": "https://github.com/notcodev/claude-weeek",
+        "path": "plugin"
       },
-      "description": "Replace this with a real plugin entry, or remove",
+      "description": "WEEEK task tracker integration for Claude Code — read/write tools for AI coding agents",
       "version": "1.0.0",
       "strict": true
     }
